@@ -1,0 +1,34 @@
+.container {
+  margin: 10px auto 10px auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+
+  gap: 12px;
+}
+.btn {
+  background-color: rgb(197, 193, 193);
+  width: fit-content;
+}
+
+.iconName {
+  width: 24px;
+  height: fit-content;
+}
+
+.iconPhone {
+  fill: blue;
+  width: 24px;
+  height: fit-content;
+}

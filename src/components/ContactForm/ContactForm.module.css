@@ -1,0 +1,38 @@
+.container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border-radius: 6px;
+    border: 2px solid dimgray;
+  }
+  
+  .label {
+    margin-left: 25px;
+    font-weight: 500;
+  }
+  
+  .margin {
+    margin-top: 10px;
+  }
+  
+  .input {
+    margin: 0 auto;
+    width: 300px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid dimgray;
+  }
+  
+  .error {
+    margin-left: 25px;
+    font-size: 0.75em;
+    color: orangered;
+  }
+  
+  .btn {
+    margin: 20px auto 0 auto;
+    width: 150px;
+  
+    background-color: rgb(197, 193, 193);
+  }
